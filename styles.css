@@ -50,10 +50,20 @@ li {
 }
 
 .meal {
+    border: 5px solid black;
+}
+
+.meal h3 {
     background-color: gold;
 }
 
 .soup {
+    border-width: 0px 5px 5px 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.soup h3{
     background-color: darkorange;
 }
 
@@ -91,5 +101,5 @@ li {
 .steps li {
     text-align: left;
     border: 2px solid black;
-    margin: 0px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 }
