@@ -1,25 +1,52 @@
 * {
     font-family: 'Courier New', serif;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+    margin: 0px;
+    background-color: #FFFF60;
+    text-align: center;
+}
+
+strong {
+    background-color: transparent;
+}
+
+a {
+    background-color: transparent;
+}
+
+.ctr-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     background-color: lightcoral;
-    text-align: center;
     font-size: 42px;
 }
 
 h2 {
-    text-align: center;
+    margin: 10px 50px 0px;
 }
 
-.list {
+ul {
     font-size: 18px;
     font-weight: 400;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
-.list.recipes {
+li {
+    background-color: white;
+    padding: 5px;
+}
+
+.recipes {
     font-size: 24px;
     font-weight: 600;
+    background-color: #FFFF60;
 }
 
 .meal {
@@ -32,12 +59,37 @@ h2 {
 
 .desc {
     font-size: 18px;
-    text-align: center;
     background-color: lightcoral;
+    margin: 10px 50px;
+    border-radius: 10px;
+    padding: 2px;
 }
 
-.ctr-img {
-    display: block;
+.facts li {
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
+}
+
+.ing {
+    margin: 0px 50px;
+    border-width: 0px 2px 2px 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.ing li {
+    text-align: left;
+    border-top: 2px solid black;
+}
+
+.steps {
+    margin: 0px 50px;
+}
+
+.steps li {
+    text-align: left;
+    border: 2px solid black;
+    margin: 0px 0px 10px 0px;
 }
